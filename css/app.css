@@ -1,0 +1,29 @@
+@charset "utf-8";
+@font-face {
+    font-family: "Segoe UI";
+    font-weight: 200;
+    src: local("Segoe UI Light");
+}
+.navyheader{
+	font-family: "Segoe UI";
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:active,
+.navbar-default .navbar-nav > li > a:visited,
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:active,
+.navbar-default .navbar-brand:visited {
+  border-bottom: 3px #00b8b6 solid;
+}
+/*.navbar-header > .navbar-brand {
+  color: #00b8b6;
+}*/
+.navbar-nav > .active > a {
+    height: 50px;
+}
+.navbar-nav > li > a {
+  padding-top: 15px;
+  padding-bottom: 12px;
+}
